@@ -1,4 +1,4 @@
-# Cybersecurity Portfolio — P. Guid
+# Cybersecurity Portfolio — P. Guidry
 
 Welcome to my cybersecurity portfolio. I'm transitioning into cybersecurity after
 10+ years of high-pressure operational leadership work in the hospitality industry.
@@ -18,9 +18,10 @@ This repo contains hands-on projects demonstrating my growing skills in:
 ### **Case 01 — SSH Brute Force → Reverse Shell (Linux Host)**
 - Investigated brute-force SSH activity from 185.199.110.22  
 - Identified successful unauthorized login  
-- Detected privilege escalation attempts and netcat reverse shell  
+- Detected privilege escalation attempts and a netcat reverse shell  
 - Full incident report included  
-➡️ Location: `incident-reports/case01-ssh-bruteforce-reverse-shell/report.md`
+➡️ **View Gist Report:** https://gist.github.com/pguidry17/1dbb846195ebd048af82ee08b5f67964  
+➡️ **Repo location:** `incident-reports/case01-ssh-bruteforce-reverse-shell/report.md`
 
 (More cases coming soon)
 
@@ -44,8 +45,8 @@ This repo contains hands-on projects demonstrating my growing skills in:
 ##  Python Security Tools (In Progress)
 Simple automation tools to support SOC work:
 
-- `failed-login-parser.py` — Parse and organize failed SSH login attempts
-- `ioc-extractor.py` — Pull suspicious IPs, domains, or patterns from logs
+- `failed-login-parser.py` — Parse and organize failed SSH login attempts  
+- `ioc-extractor.py` — Pull suspicious IPs, domains, or patterns from logs  
 
 ➡️ Folder: `python-tools/`
 
@@ -56,6 +57,7 @@ Hands-on practice with:
 
 - Microsoft Sentinel  
 - Splunk alerts & dashboards  
+
 ➡️ Folder: `siem-labs/`
 
 ---
