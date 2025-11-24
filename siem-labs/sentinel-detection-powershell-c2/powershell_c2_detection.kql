@@ -1,0 +1,9 @@
+// Detect suspicious PowerShell executions with encoded or hidden flags
+DeviceProcessEvents
+| where FileName in~ ("powershell.exe", "pwsh.exe")
+| where ProcessCommandLine has_any ("-EncodedCommand", "-enc") 
+    or ProcessCommandLine has "-nop" 
+    or ProcessCommandLine has "-w hidden"
+    or ProcessCommandLine has "New-Object Net.WebClient"
+    or ProcessCommandLine contains "IEX("
+| project Timestamp, DeviceName, InitiatingProcessAccountName, FileName, ProcessCommandLine
