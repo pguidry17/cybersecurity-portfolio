@@ -131,14 +131,6 @@ This case helped reinforce:
 - MITRE ATT&CK mapping  
 
 ---
-
-## 10. Next Steps
-
-- Build a Python failed-login parser  
-- Complete a SIEM-based version of this investigation  
-- Begin Windows Event Log analysis  
-- Explore OT/ICS security fundamentals  
-
 ---
 
 **End of Report**  
