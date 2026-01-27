@@ -71,7 +71,6 @@ to explore industrial control system (ICS) security concepts.
 ---
 
 ##  Current Career Goals
-- Pass **CompTIA Security+**  
 - Complete more SOC-style investigations  
 - Build small Python security automation tools  
 - Gain entry-level SOC or Cybersecurity Analyst role  
