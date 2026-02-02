@@ -54,7 +54,6 @@ ssh fakeuser@192.168.56.101
 ```
 
 The attempts resulted in repeated authentication failures and eventual connection termination.
-![SSH attack from Windows PowerShell](screenshots/win_ssh_attack.png)
 ---
 
 ## Detection & Analysis
@@ -74,7 +73,6 @@ Observed log entries included:
 * Service: `sshd`
 
 These entries confirm unsuccessful SSH authentication attempts originating from the Windows host.
-![Failed SSH logins in auth.log](screenshots/auth_log_tail.png)
 ---
 
 ## Network Validation
@@ -91,7 +89,6 @@ Key findings:
 * `enp0s8` → Host-only interface (`192.168.56.101`)
 
 This confirms that the SSH traffic observed in the logs originated from the host-only network.
-![Network interface configuration](screenshots/ip_a_output.png)
 ---
 
 ## Key Security Concepts Demonstrated
@@ -128,8 +125,11 @@ This project demonstrates practical security monitoring skills beyond theoretica
 Screenshots included in this repository show:
 
 * SSH attack attempts from Windows PowerShell
+* ![SSH attack from Windows PowerShell](screenshots/win_ssh_attack.png)
 * Corresponding authentication failures in Ubuntu logs
+* ![Failed SSH logins in auth.log](screenshots/auth_log_tail.png)
 * Network interface configuration confirming IP addresses
+* ![Network interface configuration](screenshots/ip_a_output.png)
 
 ---
 
