@@ -91,7 +91,7 @@ Key findings:
 * `enp0s8` → Host-only interface (`192.168.56.101`)
 
 This confirms that the SSH traffic observed in the logs originated from the host-only network.
-
+![Network interface configuration](screenshots/ip_a_output.png)
 ---
 
 ## Key Security Concepts Demonstrated
