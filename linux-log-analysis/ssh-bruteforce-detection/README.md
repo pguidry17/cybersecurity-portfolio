@@ -74,7 +74,7 @@ Observed log entries included:
 * Service: `sshd`
 
 These entries confirm unsuccessful SSH authentication attempts originating from the Windows host.
-
+![Failed SSH logins in auth.log](screenshots/auth_log_tail.png)
 ---
 
 ## Network Validation
