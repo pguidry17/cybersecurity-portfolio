@@ -4,9 +4,9 @@ This repository contains a hands-on Linux log analysis lab focused on detecting 
 
 ## Overview
 
-This lab demonstrates a simulated SSH brute-force / invalid-user attack against an Ubuntu Linux system and the detection of that activity through native Linux authentication logs. The purpose of this project is to showcase hands-on SOC-relevant skills including system configuration, log analysis, network troubleshooting, and incident-style investigation.
+This lab demonstrates a simulated SSH brute-force / invalid-user attack against an Ubuntu Linux system and the detection of that activity through Linux authentication logs. The purpose of this project is to showcase SOC-relevant skills including system configuration, log analysis, network troubleshooting, and incident-style investigation.
 
-This project was built to mirror how a security analyst would observe, validate, and explain suspicious authentication activity in a real environment.
+This project mirrors how a security analyst would observe, validate, and explain suspicious authentication activity in a real environment.
 
 ---
 
