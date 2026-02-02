@@ -54,7 +54,7 @@ ssh fakeuser@192.168.56.101
 ```
 
 The attempts resulted in repeated authentication failures and eventual connection termination.
-
+![SSH attack from Windows PowerShell](screenshots/win_ssh_attack.png)
 ---
 
 ## Detection & Analysis
