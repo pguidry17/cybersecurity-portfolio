@@ -1,5 +1,7 @@
 # Ubuntu SSH Attack Detection Lab (SIEM Fundamentals)
 
+This repository contains a hands-on Linux log analysis lab focused on detecting unauthorized SSH authentication attempts using native system logs.
+
 ## Overview
 
 This lab demonstrates a simulated SSH brute-force / invalid-user attack against an Ubuntu Linux system and the detection of that activity through native Linux authentication logs. The purpose of this project is to showcase hands-on SOC-relevant skills including system configuration, log analysis, network troubleshooting, and incident-style investigation.
